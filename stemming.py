@@ -3,6 +3,12 @@ porter_stemmer.py
  
 A from-scratch implementation of the Porter Stemming Algorithm (Porter, 1980).
 No external libraries used - pure Python.
+
+forgot to add this: before looking at the code, PLEASE LOOK AT THE
+COMICALLY BIG DESCRIPTION of the porter stemming algo.
+
+step 2 to step 4 are just massive massive lookup tables and rules applied to them 
+based on their measure vakue
 """
  
  
@@ -171,7 +177,7 @@ class PorterStemmer:
                 return word
         return word
  
-    # ---------- Step 4: suffix removal (m > 1) ----------
+    # Step 4: suffix removal (m > 1)
  
     def step4(self, word):
         for suffix in self.STEP4_SUFFIXES:
