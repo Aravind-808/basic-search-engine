@@ -1,0 +1,6 @@
+Machine learning is a branch of artificial intelligence that allows computers to learn
+patterns from data without being explicitly programmed. Common machine learning models
+include decision trees, neural networks, and support vector machines. Training a model
+requires large datasets, and the quality of the data directly affects the accuracy of
+predictions. Python is one of the most widely used languages for machine learning because
+of libraries like scikit-learn and TensorFlow.

@@ -1,0 +1,4 @@
+Deep learning is a subset of machine learning that uses neural networks with many layers
+to model complex patterns in data. It has driven major advances in image recognition,
+natural language processing, and speech recognition. Training deep neural networks
+typically requires powerful GPUs and large amounts of labeled data to achieve good accuracy.

@@ -1,0 +1,5 @@
+Python is a popular programming language known for its readability and simplicity.
+Developers use Python for web development, data analysis, automation, and scripting.
+Python has a large ecosystem of libraries such as NumPy, Pandas, and Django that make
+building applications faster. Many beginners choose Python as their first programming
+language because the syntax is clean and easy to learn.
