@@ -14,7 +14,7 @@ def print_ranked_results(results, corrections):
 
     for doc_id, filename, score, snippet in results:
         print(f"[{score:.4f}] doc {doc_id} - {filename}")
-        print(f"...{snippet}...")
+        print(f"\t\t...{snippet}...\n\n")
     print()
 
 
@@ -25,7 +25,7 @@ def print_boolean_results(results):
 
     for doc_id, filename, snippet in results:
         print(f"doc {doc_id} - {filename}")
-        print(f"...{snippet}...")
+        print(f"\t\t...{snippet}...\n\n")
     print()
 
 

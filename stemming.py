@@ -1,5 +1,5 @@
 """
-porter_stemmer.py
+stemming.py
  
 A from-scratch implementation of the Porter Stemming Algorithm (Porter, 1980).
 No external libraries used - pure Python.

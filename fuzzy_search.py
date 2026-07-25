@@ -1,4 +1,6 @@
 '''
+fuzzy_search.py
+
 suggest a closest known term when the typed term in the query isnt in
 the inverted index at all
 

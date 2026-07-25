@@ -1,4 +1,5 @@
 '''
+file_loader.py
 file loader for the search engine:
 
 lets say we have 2 files:
@@ -55,7 +56,7 @@ class DocumentCollector:
             logging.error(f"Error loading file {file_path}: {e}")
 
     def load_files(self, folder_path):
-        for root, folders, files in os.walk(folder_path):
+        for root, _, files in os.walk(folder_path):
             for file in files:
                 full_path = os.path.join(root, file)
                 if file.endswith(".txt"):
@@ -63,8 +64,6 @@ class DocumentCollector:
                         self.load_file(full_path)
                     except DuplicateContentError as e:
                         logging.warning(f"Skipping duplicate: {full_path}")
-        return len(self.file_data)
-
         return len(self.file_data)
 
 
