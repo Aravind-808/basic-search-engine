@@ -1,0 +1,50 @@
+TITLE: Classes of Antibiotics - Mechanisms and Spectrum
+
+OVERVIEW
+Antibiotics are classified based on their mechanism of action and spectrum
+of activity against bacterial pathogens, guiding selection for specific
+infections.
+
+BETA-LACTAMS
+This class includes penicillins, cephalosporins, and carbapenems, which
+inhibit bacterial cell wall synthesis by binding penicillin-binding
+proteins. Penicillins are effective against many gram-positive organisms,
+while cephalosporins offer expanding gram-negative coverage across
+generations. Carbapenems provide broad-spectrum coverage reserved for
+serious infections.
+
+MACROLIDES
+Macrolides such as azithromycin and clarithromycin inhibit bacterial protein
+synthesis by binding the 50S ribosomal subunit, commonly used for atypical
+respiratory pathogens.
+
+FLUOROQUINOLONES
+Fluoroquinolones like ciprofloxacin and levofloxacin inhibit bacterial DNA
+gyrase and topoisomerase IV, providing broad-spectrum coverage but carrying
+risks of tendon rupture and QT prolongation.
+
+TETRACYCLINES
+Tetracyclines inhibit protein synthesis by binding the 30S ribosomal
+subunit and are used for atypical infections, acne, and certain zoonotic
+diseases, though contraindicated in pregnancy and young children due to
+effects on bone and teeth development.
+
+AMINOGLYCOSIDES
+Aminoglycosides such as gentamicin bind the 30S ribosomal subunit and are
+used for serious gram-negative infections, requiring monitoring due to
+nephrotoxicity and ototoxicity risk.
+
+GLYCOPEPTIDES
+Vancomycin inhibits cell wall synthesis and is a key agent against
+methicillin-resistant Staphylococcus aureus (MRSA) and other resistant
+gram-positive organisms.
+
+SULFONAMIDES
+Trimethoprim-sulfamethoxazole inhibits folate synthesis pathways and is
+commonly used for urinary tract infections and certain opportunistic
+infections.
+
+SELECTION PRINCIPLES
+Antibiotic selection should be guided by suspected or confirmed pathogen,
+local resistance patterns, site of infection, and patient-specific factors
+including allergies and renal function.

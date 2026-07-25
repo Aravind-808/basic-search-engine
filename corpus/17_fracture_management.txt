@@ -1,0 +1,45 @@
+TITLE: Orthopedic Fracture Management
+
+OVERVIEW
+Fractures represent a break in bone continuity resulting from trauma,
+repetitive stress, or pathological weakening, requiring assessment for
+type, stability, and associated soft tissue injury.
+
+CLASSIFICATION
+Fractures are classified by pattern (transverse, oblique, spiral,
+comminuted), by whether the skin is intact (closed) or breached (open), and
+by displacement. Open fractures carry significant infection risk and
+require urgent management.
+
+CLINICAL ASSESSMENT
+Assessment includes evaluation of pain, swelling, deformity, and
+neurovascular status distal to the injury. Compartment syndrome, a surgical
+emergency, must be considered in high-energy injuries presenting with
+disproportionate pain, pallor, paresthesia, and pulselessness.
+
+IMAGING
+Plain radiographs in at least two views are standard for initial fracture
+evaluation. CT imaging may be used for complex fractures involving joints,
+and MRI can assess associated soft tissue or occult fractures.
+
+INITIAL MANAGEMENT
+Initial management includes immobilization, analgesia, and reduction of
+displaced fractures when necessary. Open fractures require irrigation,
+debridement, and antibiotic prophylaxis to reduce infection risk.
+
+DEFINITIVE TREATMENT
+Treatment options range from closed reduction and casting for stable
+fractures to open reduction and internal fixation (ORIF) with plates,
+screws, or intramedullary nails for unstable or displaced fractures.
+External fixation may be used for severe open fractures or as a temporizing
+measure.
+
+HEALING PROCESS
+Fracture healing progresses through hematoma formation, soft callus
+formation, hard callus formation, and remodeling, typically requiring
+6-12 weeks depending on bone and patient factors.
+
+COMPLICATIONS
+Potential complications include malunion, nonunion, infection, compartment
+syndrome, and post-traumatic arthritis, underscoring the importance of
+appropriate follow-up and rehabilitation.

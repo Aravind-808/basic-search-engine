@@ -1,0 +1,46 @@
+TITLE: Essential Hypertension - Diagnosis and Management
+
+OVERVIEW
+Hypertension, or persistently elevated arterial blood pressure, is one of the
+most common chronic conditions and a leading modifiable risk factor for
+cardiovascular disease, stroke, and chronic kidney disease.
+
+CLASSIFICATION
+Blood pressure is classified as normal (<120/80 mmHg), elevated (120-129/<80),
+stage 1 hypertension (130-139/80-89), and stage 2 hypertension (>=140/90).
+Hypertensive crisis is defined as systolic pressure >180 mmHg or diastolic
+>120 mmHg.
+
+ETIOLOGY
+Most cases are classified as essential (primary) hypertension with no single
+identifiable cause, though genetics, high sodium intake, obesity, alcohol use,
+and physical inactivity contribute. Secondary hypertension may result from
+renal artery stenosis, primary aldosteronism, pheochromocytoma, or
+obstructive sleep apnea.
+
+CLINICAL PRESENTATION
+Hypertension is often asymptomatic, earning it the label "silent killer."
+Severe elevations may cause headache, dizziness, epistaxis, or visual
+disturbances.
+
+DIAGNOSTIC WORKUP
+Diagnosis requires multiple elevated readings on separate occasions, ideally
+confirmed with home or ambulatory blood pressure monitoring. Initial workup
+includes basic metabolic panel, lipid profile, urinalysis, electrocardiogram,
+and assessment for end-organ damage.
+
+MANAGEMENT
+Lifestyle interventions include the DASH diet, sodium restriction, weight
+loss, regular aerobic exercise, and alcohol moderation. Pharmacologic
+treatment options include thiazide diuretics, ACE inhibitors, angiotensin
+receptor blockers, calcium channel blockers, and beta-blockers, chosen based
+on comorbidities and patient-specific factors.
+
+COMPLICATIONS
+Uncontrolled hypertension increases risk of myocardial infarction, heart
+failure, stroke, aortic aneurysm, chronic kidney disease, and hypertensive
+retinopathy.
+
+FOLLOW UP
+Regular blood pressure monitoring and medication adherence are essential for
+long-term cardiovascular risk reduction.

@@ -1,0 +1,45 @@
+TITLE: Acute Stroke Management Protocol
+
+OVERVIEW
+Stroke is a medical emergency resulting from disrupted blood supply to the
+brain, classified as ischemic (approximately 87 percent of cases) or
+hemorrhagic.
+
+RECOGNITION
+The FAST mnemonic (Face drooping, Arm weakness, Speech difficulty, Time to
+call emergency services) is widely used for public recognition of stroke
+symptoms. Additional signs include sudden numbness, confusion, vision
+changes, difficulty walking, and severe headache.
+
+INITIAL ASSESSMENT
+Rapid assessment includes determining time of symptom onset (or last known
+well), obtaining vital signs, performing a National Institutes of Health
+Stroke Scale (NIHSS) assessment, and urgent noncontrast head CT to
+distinguish ischemic from hemorrhagic stroke.
+
+ISCHEMIC STROKE MANAGEMENT
+Intravenous thrombolysis with alteplase or tenecteplase is considered for
+eligible patients presenting within the therapeutic window, typically 4.5
+hours from symptom onset, after excluding contraindications such as active
+bleeding or recent surgery. Mechanical thrombectomy may be performed for
+large vessel occlusions within an extended window in appropriately selected
+patients.
+
+HEMORRHAGIC STROKE MANAGEMENT
+Management focuses on blood pressure control, reversal of anticoagulation if
+applicable, and neurosurgical consultation for possible evacuation depending
+on hematoma size and location.
+
+SECONDARY PREVENTION
+Post-stroke management includes antiplatelet or anticoagulant therapy
+depending on stroke etiology, statin therapy, blood pressure control, and
+risk factor modification including smoking cessation and diabetes
+management.
+
+REHABILITATION
+Multidisciplinary rehabilitation involving physical, occupational, and
+speech therapy is critical for functional recovery following stroke.
+
+TIME METRICS
+Door-to-needle time targets aim for thrombolytic administration within 60
+minutes of hospital arrival to minimize disability from ischemic stroke.

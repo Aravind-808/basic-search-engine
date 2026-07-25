@@ -1,0 +1,46 @@
+TITLE: Pharmacology of NSAIDs
+
+OVERVIEW
+Nonsteroidal anti-inflammatory drugs (NSAIDs) are among the most widely used
+medications for pain, inflammation, and fever, acting through inhibition of
+cyclooxygenase (COX) enzymes.
+
+MECHANISM OF ACTION
+NSAIDs inhibit COX-1 and COX-2 enzymes, reducing the synthesis of
+prostaglandins and thromboxanes involved in inflammation, pain signaling,
+and platelet aggregation. COX-1 is constitutively expressed and involved in
+gastric mucosal protection and platelet function, while COX-2 is induced
+during inflammation.
+
+COMMON AGENTS
+Widely used NSAIDs include ibuprofen, naproxen, diclofenac, indomethacin,
+and aspirin, which irreversibly inhibits COX enzymes. Selective COX-2
+inhibitors such as celecoxib were developed to reduce gastrointestinal side
+effects.
+
+INDICATIONS
+NSAIDs are used for management of osteoarthritis, rheumatoid arthritis,
+acute musculoskeletal injuries, dysmenorrhea, headache, and postoperative
+pain, as well as antiplatelet effects for cardiovascular prophylaxis with
+low-dose aspirin.
+
+ADVERSE EFFECTS
+Common adverse effects include gastrointestinal irritation, peptic ulcer
+disease, and gastrointestinal bleeding due to reduced mucosal protection.
+Renal effects include reduced glomerular filtration and risk of acute kidney
+injury, particularly in volume-depleted patients. Cardiovascular risks
+include increased risk of myocardial infarction and stroke with certain
+agents, particularly at higher doses.
+
+CONTRAINDICATIONS
+NSAIDs should be used cautiously or avoided in patients with active
+gastrointestinal bleeding, severe renal impairment, heart failure, and in
+late pregnancy due to risk of premature closure of the ductus arteriosus.
+
+DRUG INTERACTIONS
+NSAIDs can interact with anticoagulants, increasing bleeding risk, and may
+reduce the antihypertensive effect of ACE inhibitors and diuretics.
+
+MONITORING
+Renal function and gastrointestinal symptoms should be monitored with
+long-term NSAID use, particularly in elderly patients.

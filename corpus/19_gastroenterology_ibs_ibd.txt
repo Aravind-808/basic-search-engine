@@ -1,0 +1,49 @@
+TITLE: Irritable Bowel Syndrome and Inflammatory Bowel Disease
+
+OVERVIEW
+Irritable bowel syndrome (IBS) and inflammatory bowel disease (IBD) are
+distinct gastrointestinal conditions that share overlapping symptoms but
+differ substantially in pathophysiology and management.
+
+IRRITABLE BOWEL SYNDROME
+IBS is a functional gastrointestinal disorder characterized by recurrent
+abdominal pain associated with altered bowel habits, in the absence of
+identifiable structural or biochemical abnormalities. Subtypes include
+IBS with constipation, IBS with diarrhea, and mixed type. Diagnosis relies
+on symptom-based criteria such as the Rome IV criteria, with limited testing
+to exclude alarm features.
+
+IBS MANAGEMENT
+Management includes dietary modification such as a low-FODMAP diet, fiber
+supplementation, antispasmodics, and in some cases, low-dose tricyclic
+antidepressants or gut-directed psychotherapy for symptom control.
+
+INFLAMMATORY BOWEL DISEASE
+IBD encompasses Crohn's disease and ulcerative colitis, both characterized
+by chronic immune-mediated intestinal inflammation. Crohn's disease can
+affect any part of the gastrointestinal tract in a discontinuous pattern
+with transmural inflammation, while ulcerative colitis affects the colon
+continuously, beginning in the rectum, with inflammation limited to the
+mucosa.
+
+IBD SYMPTOMS
+Common symptoms include chronic diarrhea, abdominal pain, rectal bleeding
+(more common in ulcerative colitis), weight loss, and fatigue. Extraintestinal
+manifestations may involve joints, skin, eyes, and the hepatobiliary system.
+
+DIAGNOSIS OF IBD
+Diagnosis involves endoscopy with biopsy, cross-sectional imaging, and
+laboratory markers such as fecal calprotectin, C-reactive protein, and
+erythrocyte sedimentation rate.
+
+IBD TREATMENT
+Treatment options include 5-aminosalicylates, corticosteroids for acute
+flares, immunomodulators such as azathioprine, and biologic agents
+targeting TNF-alpha, integrins, or interleukins. Surgical intervention may
+be required for complications such as strictures, fistulas, or medically
+refractory disease.
+
+DISTINGUISHING FEATURES
+Unlike IBS, IBD is associated with objective findings of inflammation,
+increased risk of colorectal cancer with long-standing disease, and
+potential for serious structural complications.

@@ -1,0 +1,50 @@
+TITLE: Type 2 Diabetes Mellitus - Clinical Overview
+
+OVERVIEW
+Type 2 diabetes mellitus (T2DM) is a chronic metabolic disorder characterized by
+insulin resistance and relative insulin deficiency, resulting in hyperglycemia.
+It accounts for roughly 90-95 percent of all diagnosed diabetes cases worldwide
+and is strongly associated with obesity, sedentary lifestyle, and genetic
+predisposition.
+
+EPIDEMIOLOGY
+Prevalence has risen sharply over the past three decades, correlating with
+increased rates of obesity and urbanization. Risk increases with age, family
+history, and certain ethnic backgrounds including South Asian, Hispanic, and
+African American populations.
+
+PATHOPHYSIOLOGY
+The disease develops through a combination of peripheral insulin resistance in
+skeletal muscle, liver, and adipose tissue, along with progressive beta-cell
+dysfunction in the pancreas. Chronic hyperglycemia leads to glucotoxicity,
+further impairing insulin secretion and worsening resistance in a feed-forward
+cycle.
+
+SYMPTOMS
+Common presenting symptoms include polyuria, polydipsia, polyphagia,
+unexplained weight loss, fatigue, blurred vision, and slow-healing wounds.
+Many patients are asymptomatic at diagnosis and identified through routine
+screening.
+
+DIAGNOSIS
+Diagnostic criteria include fasting plasma glucose >= 126 mg/dL, 2-hour plasma
+glucose >= 200 mg/dL during an oral glucose tolerance test, hemoglobin A1c >=
+6.5 percent, or random plasma glucose >= 200 mg/dL with classic symptoms.
+
+TREATMENT
+First-line management includes lifestyle modification: dietary changes,
+weight loss, and regular physical activity. Metformin remains the standard
+first-line pharmacologic agent. Additional drug classes include sulfonylureas,
+DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists, thiazolidinediones,
+and insulin therapy for advanced disease.
+
+COMPLICATIONS
+Long-term complications include diabetic retinopathy, nephropathy, peripheral
+neuropathy, cardiovascular disease, and increased risk of infection. Regular
+monitoring of HbA1c, lipid panels, renal function, and annual eye examinations
+are recommended.
+
+MONITORING
+Target HbA1c is generally below 7 percent for most non-pregnant adults,
+though targets are individualized based on age, comorbidities, and
+hypoglycemia risk.

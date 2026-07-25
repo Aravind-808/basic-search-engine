@@ -1,0 +1,41 @@
+TITLE: Anatomy and Physiology of the Human Heart
+
+OVERVIEW
+The heart is a four-chambered muscular organ responsible for pumping blood
+throughout the circulatory system, delivering oxygen and nutrients to
+tissues while removing metabolic waste products.
+
+CHAMBERS
+The heart consists of two atria and two ventricles. The right atrium
+receives deoxygenated blood from the systemic circulation via the superior
+and inferior vena cavae, while the left atrium receives oxygenated blood
+from the pulmonary veins. The right ventricle pumps blood to the lungs via
+the pulmonary artery, and the left ventricle pumps oxygenated blood to the
+body via the aorta.
+
+VALVES
+Four valves regulate unidirectional blood flow: the tricuspid valve between
+the right atrium and ventricle, the pulmonary valve at the outflow of the
+right ventricle, the mitral (bicuspid) valve between the left atrium and
+ventricle, and the aortic valve at the outflow of the left ventricle.
+
+CONDUCTION SYSTEM
+The cardiac conduction system originates at the sinoatrial (SA) node, the
+heart's natural pacemaker, located in the right atrium. Electrical impulses
+travel to the atrioventricular (AV) node, then through the bundle of His and
+Purkinje fibers to coordinate ventricular contraction.
+
+CORONARY CIRCULATION
+The heart muscle itself is supplied by the coronary arteries, branching from
+the aorta just above the aortic valve, including the left anterior
+descending, circumflex, and right coronary arteries.
+
+CARDIAC CYCLE
+The cardiac cycle consists of systole (ventricular contraction and ejection)
+and diastole (ventricular relaxation and filling), producing the
+characteristic heart sounds S1 and S2 associated with valve closure.
+
+CLINICAL RELEVANCE
+Understanding cardiac anatomy is essential for interpreting electrocardiograms,
+diagnosing structural heart disease, and performing cardiac procedures such
+as catheterization and surgery.

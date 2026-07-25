@@ -1,3 +1,4 @@
+import os
 import sys
 from search_engine import SearchEngine
 
@@ -12,7 +13,7 @@ def print_ranked_results(results, corrections):
         return
 
     for doc_id, filename, score, snippet in results:
-        print(f"  [{score:.4f}] doc {doc_id} - {filename}")
+        print(f"[{score:.4f}] doc {doc_id} - {filename}")
         print(f"...{snippet}...")
     print()
 
@@ -37,7 +38,11 @@ def main():
 
     print(f"Indexing documents in '{folder_path}'...")
     engine = SearchEngine()
-    engine.load_and_index(folder_path)
+    cache_path = os.path.join(folder_path, ".index_cache.json")
+    engine.load_and_index(folder_path, cache_path=cache_path)
+
+    if engine.loaded_from_cache:
+        print("(loaded from cache - no changes detected)")
 
     doc_count = len(engine.processed_docs)
     term_count = len(engine.index.vocabulary())
@@ -62,7 +67,7 @@ def main():
             results = engine.boolean_search(query)
             print_boolean_results(results)
         else:
-            results, corrections = engine.search(query)
+            results, corrections = engine.search_bm25(query)
             print_ranked_results(results, corrections)
 
 

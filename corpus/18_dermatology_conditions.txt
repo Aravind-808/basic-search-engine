@@ -1,0 +1,46 @@
+TITLE: Common Skin Conditions - Dermatology Overview
+
+OVERVIEW
+Dermatologic conditions represent a broad category of disorders affecting
+the skin, hair, and nails, ranging from benign and self-limited to chronic
+and systemic in nature.
+
+ACNE VULGARIS
+Acne results from follicular hyperkeratinization, increased sebum
+production, Cutibacterium acnes proliferation, and inflammation. Treatment
+options include topical retinoids, benzoyl peroxide, topical or oral
+antibiotics, and oral isotretinoin for severe nodulocystic cases.
+
+ATOPIC DERMATITIS
+Atopic dermatitis (eczema) is a chronic, relapsing inflammatory skin
+condition often associated with a personal or family history of atopy,
+presenting with pruritic, erythematous, and sometimes lichenified plaques.
+Management includes emollients, topical corticosteroids, topical calcineurin
+inhibitors, and in severe cases, systemic immunomodulators or biologics.
+
+PSORIASIS
+Psoriasis is an immune-mediated condition characterized by well-demarcated,
+erythematous plaques with silvery scale, most commonly on extensor
+surfaces. Treatment ranges from topical corticosteroids and vitamin D
+analogs to phototherapy and systemic biologic agents targeting TNF-alpha,
+IL-17, or IL-23 pathways.
+
+CONTACT DERMATITIS
+Contact dermatitis may be irritant or allergic in nature, resulting from
+direct skin exposure to offending substances, presenting with erythema,
+vesicles, and pruritus at the site of contact.
+
+SKIN CANCER
+Basal cell carcinoma, squamous cell carcinoma, and melanoma are the three
+most common skin cancers. The ABCDE criteria (Asymmetry, Border
+irregularity, Color variation, Diameter >6mm, Evolving) assist in
+identifying concerning pigmented lesions warranting biopsy.
+
+FUNGAL INFECTIONS
+Superficial fungal infections such as tinea corporis, tinea pedis, and
+onychomycosis are treated with topical or oral antifungal agents depending
+on severity and extent.
+
+GENERAL PRINCIPLES
+Skin biopsy remains a key diagnostic tool for uncertain or atypical
+presentations, guiding definitive diagnosis and treatment planning.

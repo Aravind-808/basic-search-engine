@@ -1,0 +1,44 @@
+TITLE: Anatomy of the Respiratory System
+
+OVERVIEW
+The respiratory system facilitates gas exchange, delivering oxygen to the
+bloodstream and removing carbon dioxide, while also playing roles in
+acid-base balance, vocalization, and immune defense.
+
+UPPER RESPIRATORY TRACT
+The upper respiratory tract includes the nasal cavity, pharynx, and larynx.
+Air is filtered, humidified, and warmed as it passes through the nasal
+passages before reaching the lower airways.
+
+LOWER RESPIRATORY TRACT
+The trachea branches into the right and left main bronchi, which further
+divide into lobar and segmental bronchi, then bronchioles, terminating in
+alveolar sacs where gas exchange occurs across the thin alveolar-capillary
+membrane.
+
+LUNGS
+The right lung has three lobes (upper, middle, lower) while the left lung
+has two lobes (upper, lower) to accommodate space for the heart. Each lung
+is enclosed by pleura, a double-layered membrane that reduces friction
+during breathing.
+
+MECHANICS OF BREATHING
+Inspiration is driven primarily by contraction of the diaphragm and external
+intercostal muscles, expanding the thoracic cavity and decreasing
+intrapleural pressure. Expiration is largely passive at rest, relying on
+elastic recoil of lung tissue.
+
+GAS EXCHANGE
+Oxygen diffuses from alveoli into pulmonary capillaries, binding to
+hemoglobin in red blood cells, while carbon dioxide diffuses in the opposite
+direction to be exhaled.
+
+REGULATION OF BREATHING
+Respiratory rate and depth are regulated by the medulla oblongata and pons
+in response to chemoreceptor input, primarily sensitive to arterial carbon
+dioxide and pH levels.
+
+CLINICAL RELEVANCE
+Knowledge of respiratory anatomy underlies diagnosis and management of
+conditions such as pneumonia, pneumothorax, chronic obstructive pulmonary
+disease, and pulmonary embolism.

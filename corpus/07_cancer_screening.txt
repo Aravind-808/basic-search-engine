@@ -1,0 +1,40 @@
+TITLE: Cancer Screening Guidelines - Overview
+
+OVERVIEW
+Cancer screening aims to detect malignancy at an early, more treatable
+stage in asymptomatic individuals, reducing cancer-specific mortality.
+
+BREAST CANCER
+Mammography screening is generally recommended biennially for women aged
+50-74, with earlier or more frequent screening considered for those with
+elevated risk based on family history or genetic mutations such as BRCA1/2.
+
+CERVICAL CANCER
+Screening with Papanicolaou (Pap) smear and/or high-risk HPV testing is
+recommended starting at age 21, with intervals depending on age and test
+type, typically every 3-5 years.
+
+COLORECTAL CANCER
+Screening options include colonoscopy every 10 years, fecal immunochemical
+testing (FIT) annually, or stool DNA testing every 1-3 years, generally
+beginning at age 45 for average-risk individuals.
+
+LUNG CANCER
+Low-dose CT screening is recommended annually for adults aged 50-80 with a
+significant smoking history (20 pack-years) who currently smoke or have
+quit within the past 15 years.
+
+PROSTATE CANCER
+Prostate-specific antigen (PSA) testing is considered on an individualized
+basis after shared decision-making, given the balance of potential benefits
+and harms including overdiagnosis.
+
+RISK-BASED SCREENING
+Individuals with hereditary cancer syndromes, such as Lynch syndrome or
+BRCA mutations, often require earlier initiation and more frequent
+surveillance across multiple cancer types.
+
+LIMITATIONS
+Screening programs carry risks of false positives, overdiagnosis, and
+procedure-related complications, underscoring the importance of shared
+decision-making between patients and clinicians.

@@ -1,0 +1,42 @@
+TITLE: Antimicrobial Resistance - Mechanisms and Public Health Impact
+
+OVERVIEW
+Antimicrobial resistance (AMR) occurs when bacteria, viruses, fungi, or
+parasites evolve mechanisms that reduce or eliminate the effectiveness of
+drugs designed to treat them. AMR is recognized by global health authorities
+as one of the top threats to public health.
+
+MECHANISMS OF RESISTANCE
+Bacteria develop resistance through several mechanisms: enzymatic
+degradation of antibiotics (e.g., beta-lactamases), alteration of drug
+target sites, efflux pumps that expel antibiotics from the cell, and reduced
+membrane permeability. Resistance genes can be transferred between bacteria
+via plasmids, transposons, and horizontal gene transfer.
+
+DRIVERS OF RESISTANCE
+Overuse and misuse of antibiotics in human medicine and agriculture are
+primary drivers. Incomplete treatment courses, inappropriate prescribing for
+viral infections, and widespread agricultural use for growth promotion
+accelerate the emergence of resistant strains.
+
+KEY RESISTANT ORGANISMS
+Notable multidrug-resistant organisms include methicillin-resistant
+Staphylococcus aureus (MRSA), vancomycin-resistant Enterococcus (VRE),
+carbapenem-resistant Enterobacteriaceae (CRE), and extensively drug-resistant
+tuberculosis (XDR-TB).
+
+CLINICAL IMPACT
+Infections caused by resistant organisms are associated with higher
+morbidity, mortality, longer hospital stays, and increased healthcare costs
+due to limited treatment options.
+
+STEWARDSHIP STRATEGIES
+Antimicrobial stewardship programs promote appropriate antibiotic selection,
+dosing, duration, and route of administration. Strategies include
+diagnostic-driven prescribing, de-escalation based on culture results, and
+education for clinicians and patients.
+
+FUTURE DIRECTIONS
+Research into novel antibiotics, bacteriophage therapy, and rapid
+diagnostic tools aims to address the shrinking pipeline of effective
+antimicrobial agents.

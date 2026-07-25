@@ -1,0 +1,43 @@
+TITLE: Common Cold Versus Influenza - Differential Comparison
+
+OVERVIEW
+Both the common cold and influenza are viral respiratory illnesses, but they
+differ significantly in causative agents, severity, and clinical course.
+
+CAUSATIVE AGENTS
+The common cold is most often caused by rhinoviruses, though coronaviruses,
+adenoviruses, and respiratory syncytial virus can also be responsible.
+Influenza is caused by influenza A and B viruses, which undergo frequent
+antigenic changes.
+
+ONSET AND SYMPTOMS
+Cold symptoms typically develop gradually and include rhinorrhea, nasal
+congestion, sore throat, and mild cough, with low-grade or absent fever.
+Influenza has an abrupt onset marked by high fever, chills, myalgia, severe
+fatigue, headache, and dry cough. Gastrointestinal symptoms are more common
+in children with influenza.
+
+DURATION
+Cold symptoms generally resolve within 7-10 days. Influenza symptoms may
+last 1-2 weeks, with fatigue sometimes persisting longer.
+
+COMPLICATIONS
+Colds rarely cause serious complications beyond secondary sinusitis or otitis
+media. Influenza can lead to pneumonia, myocarditis, encephalitis, and
+exacerbation of chronic conditions, particularly in the elderly, young
+children, pregnant women, and immunocompromised individuals.
+
+DIAGNOSIS
+Diagnosis is largely clinical. Rapid influenza diagnostic tests (RIDTs) or
+PCR-based assays can confirm influenza, especially during outbreak seasons.
+
+TREATMENT
+Cold treatment is supportive: rest, fluids, analgesics, and decongestants.
+Influenza may be treated with antiviral agents such as oseltamivir when
+initiated within 48 hours of symptom onset, particularly in high-risk
+patients.
+
+PREVENTION
+Annual influenza vaccination is recommended for most individuals over 6
+months of age. Hand hygiene and respiratory etiquette reduce transmission of
+both illnesses.

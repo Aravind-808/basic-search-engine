@@ -1,0 +1,45 @@
+TITLE: Sepsis Recognition and Management Protocol
+
+OVERVIEW
+Sepsis is a life-threatening organ dysfunction caused by a dysregulated host
+response to infection, representing a leading cause of in-hospital mortality.
+
+DEFINITIONS
+Sepsis is defined by evidence of infection plus an increase in Sequential
+Organ Failure Assessment (SOFA) score of two or more points. Septic shock is
+a subset of sepsis with circulatory and cellular metabolism abnormalities
+severe enough to substantially increase mortality, characterized by
+persistent hypotension requiring vasopressors and elevated lactate despite
+adequate fluid resuscitation.
+
+SCREENING TOOLS
+The quick SOFA (qSOFA) score uses altered mental status, respiratory rate
+>=22/min, and systolic blood pressure <=100 mmHg to identify patients at
+risk outside the intensive care unit.
+
+INITIAL MANAGEMENT (HOUR-1 BUNDLE)
+Recommended initial interventions include measuring lactate level, obtaining
+blood cultures prior to antibiotic administration, administering
+broad-spectrum antibiotics, initiating rapid administration of 30 mL/kg
+crystalloid fluid for hypotension or lactate >=4 mmol/L, and applying
+vasopressors if hypotension persists despite fluid resuscitation to maintain
+mean arterial pressure >=65 mmHg.
+
+SOURCE CONTROL
+Identifying and controlling the source of infection, such as drainage of an
+abscess or removal of infected devices, is critical alongside antimicrobial
+therapy.
+
+MONITORING
+Ongoing monitoring includes serial lactate measurements, urine output,
+mental status, and hemodynamic parameters to guide resuscitation.
+
+ANTIBIOTIC DE-ESCALATION
+Once culture results are available, antibiotic therapy should be narrowed
+based on identified organism and susceptibility patterns to reduce
+resistance development and adverse effects.
+
+PROGNOSIS
+Early recognition and prompt initiation of the treatment bundle are
+strongly associated with improved survival outcomes in sepsis and septic
+shock.

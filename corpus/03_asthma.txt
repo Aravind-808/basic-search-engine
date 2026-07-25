@@ -1,0 +1,46 @@
+TITLE: Asthma - Pathophysiology and Treatment Guidelines
+
+OVERVIEW
+Asthma is a chronic inflammatory airway disease characterized by variable and
+recurring symptoms of airflow obstruction, bronchial hyperresponsiveness, and
+underlying inflammation.
+
+PATHOPHYSIOLOGY
+Chronic inflammation leads to airway hyperresponsiveness, bronchoconstriction,
+mucus hypersecretion, and airway remodeling over time. Triggers include
+allergens, respiratory infections, exercise, cold air, and irritants such as
+smoke.
+
+SYMPTOMS
+Characteristic symptoms include wheezing, shortness of breath, chest
+tightness, and cough, often worse at night or early morning. Symptoms are
+typically episodic and reversible, either spontaneously or with treatment.
+
+CLASSIFICATION
+Severity is classified as intermittent, mild persistent, moderate persistent,
+or severe persistent based on symptom frequency, nighttime awakenings, and
+lung function measurements including FEV1.
+
+DIAGNOSIS
+Diagnosis relies on history, physical examination, and spirometry
+demonstrating reversible airflow obstruction, typically a >12 percent
+improvement in FEV1 after bronchodilator administration. Peak flow monitoring
+can assist with ongoing assessment.
+
+TREATMENT
+Stepwise management follows a controller/reliever approach. Short-acting
+beta-agonists (SABA) such as albuterol provide rapid symptom relief.
+Inhaled corticosteroids (ICS) form the cornerstone of long-term control,
+often combined with long-acting beta-agonists (LABA) for moderate to severe
+disease. Leukotriene receptor antagonists, biologics (e.g., omalizumab,
+mepolizumab), and oral corticosteroids are reserved for more severe or
+refractory cases.
+
+ASTHMA ACTION PLANS
+Personalized action plans help patients recognize worsening control and
+adjust therapy or seek care based on symptom zones (green, yellow, red).
+
+COMPLICATIONS
+Poorly controlled asthma can lead to status asthmaticus, a medical
+emergency requiring urgent bronchodilator therapy, systemic corticosteroids,
+and possible respiratory support.

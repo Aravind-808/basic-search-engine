@@ -1,5 +1,0 @@
-A search engine indexes documents so that users can quickly find relevant information.
-The core components of a search engine include a tokenizer, an inverted index, and a
-ranking algorithm such as TF-IDF or BM25. When a user submits a query, the search engine
-processes the query the same way it processed the documents, then ranks the results by
-relevance using cosine similarity or another scoring method.

@@ -1,0 +1,43 @@
+TITLE: Cardiovascular Disease Risk Factors and Prevention
+
+OVERVIEW
+Cardiovascular disease (CVD) remains a leading cause of death globally,
+encompassing coronary artery disease, stroke, peripheral artery disease, and
+heart failure.
+
+MODIFIABLE RISK FACTORS
+Key modifiable risk factors include hypertension, dyslipidemia, smoking,
+diabetes mellitus, obesity, physical inactivity, and unhealthy diet high in
+saturated fats and sodium. Chronic stress and poor sleep quality are
+increasingly recognized contributors.
+
+NON-MODIFIABLE RISK FACTORS
+Age, sex, and family history of premature cardiovascular disease are
+non-modifiable factors that inform overall risk stratification.
+
+RISK ASSESSMENT TOOLS
+Clinicians commonly use risk calculators such as the Pooled Cohort
+Equations or the Framingham Risk Score to estimate 10-year cardiovascular
+risk based on age, cholesterol levels, blood pressure, smoking status, and
+diabetes status.
+
+LIPID MANAGEMENT
+LDL cholesterol is a primary target for intervention. Statins remain first
+line for lipid-lowering therapy, with additional agents such as ezetimibe or
+PCSK9 inhibitors used in high-risk or statin-intolerant patients.
+
+LIFESTYLE MODIFICATION
+The American Heart Association recommends at least 150 minutes of
+moderate-intensity aerobic activity per week, a diet rich in fruits,
+vegetables, whole grains, and lean protein, smoking cessation, and
+maintenance of a healthy body weight.
+
+PHARMACOLOGIC PREVENTION
+Low-dose aspirin may be considered for secondary prevention in patients with
+established cardiovascular disease. Antihypertensive and glucose-lowering
+therapies also reduce cardiovascular risk when comorbid conditions are
+present.
+
+SCREENING
+Routine screening includes blood pressure checks, lipid panels starting in
+adulthood, and diabetes screening in at-risk populations.

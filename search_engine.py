@@ -17,6 +17,7 @@ from tokenizer import Tokenizer
 from inverted_index import InvertedIndex
 from boolean_search import boolean_search, ops
 from fuzzy_search import find_closest_terms
+from persistence import IndexCache
 
 
 class SearchEngine:
@@ -27,9 +28,28 @@ class SearchEngine:
         self.raw_content = {}  # doc_id -> original untokenized text
         self.doc_vectors = {}  # doc_id -> {term: tfidf_weight}
         self.doc_norms = {}  # doc_id -> vector magnitude (precomputed)
+        self.doc_lengths = {}  # doc_id -> number of tokens (for BM25 length normalization)
+        self.avg_doc_length = 0.0  # average doc length across the corpus (for BM25)
         self.fuzzy_max_distance = fuzzy_max_distance
+        self.loaded_from_cache = False  # set by load_and_index for the caller to check
 
-    def load_and_index(self, folder_path):
+    def load_and_index(self, folder_path, cache_path=None):
+        """
+        If cache_path is given and points to a valid, up-to-date cache
+        (folder fingerprint matches what was cached), loads everything
+        from disk instead of re-tokenizing. Otherwise rebuilds from
+        scratch and writes/updates the cache if cache_path was given.
+        """
+        self.loaded_from_cache = False
+        cache = IndexCache(cache_path) if cache_path else None
+
+        if cache:
+            cached_data = cache.load()
+            if cache.is_fresh(cached_data, folder_path):
+                self.apply_cached_state(cache.to_engine_state(cached_data))
+                self.loaded_from_cache = True
+                return
+
         collector = DocumentCollector()
         collector.load_files(folder_path)
 
@@ -39,6 +59,34 @@ class SearchEngine:
         self.index.build(self.processed_docs)
 
         self.build_doc_vectors()
+        self.compute_doc_lengths()
+
+        if cache:
+            cache.save(folder_path, self.export_state())
+
+    def apply_cached_state(self, state):
+        self.index.doc_count = state["doc_count"]
+        self.index.index = state["index"]
+        self.index.positions = state["positions"]
+        self.processed_docs = state["processed_docs"]
+        self.raw_content = state["raw_content"]
+        self.doc_vectors = state["doc_vectors"]
+        self.doc_norms = state["doc_norms"]
+        self.doc_lengths = state["doc_lengths"]
+        self.avg_doc_length = state["avg_doc_length"]
+
+    def export_state(self):
+        return {
+            "doc_count": self.index.doc_count,
+            "index": self.index.index,
+            "positions": self.index.positions,
+            "processed_docs": self.processed_docs,
+            "raw_content": self.raw_content,
+            "doc_vectors": self.doc_vectors,
+            "doc_norms": self.doc_norms,
+            "doc_lengths": self.doc_lengths,
+            "avg_doc_length": self.avg_doc_length,
+        }
 
     def build_doc_vectors(self):
         """
@@ -104,7 +152,7 @@ class SearchEngine:
                 corrected_terms.append(candidates[0])
                 corrections.append((term, candidates[0]))
             else:
-                corrected_terms.append(term)  # keep as is, will just score 0
+                corrected_terms.append(term)  # keep as-is, will just score 0
 
         return corrected_terms, corrections
 
@@ -125,7 +173,7 @@ class SearchEngine:
                 excerpt = " ".join(words[start:end])
                 return ("..." if start > 0 else "") + excerpt + ("..." if end < len(words) else "")
 
-        # fallback: no exact raw-word match (e.g. only the stemmed form matched)
+        # fallback for no exact raw-word match
         preview = " ".join(words[:window * 2])
         return preview + ("..." if len(words) > window * 2 else "")
 
@@ -147,6 +195,70 @@ class SearchEngine:
         results = []
         for doc_id, doc_vec in self.doc_vectors.items():
             score = self.cosine_similarity(query_vec, doc_vec, self.doc_norms[doc_id])
+            if score > 0:
+                filename = self.processed_docs[doc_id]["filename"]
+                snippet = self.get_snippet(doc_id, raw_query_words)
+                results.append((doc_id, filename, score, snippet))
+
+        results.sort(key=lambda r: r[2], reverse=True)
+        return results[:top_k], corrections
+
+    def compute_doc_lengths(self):
+        """
+        records the token count of every document, and the corpus-wide
+        average. both needed for BM25's length normalization.
+        """
+        self.doc_lengths = {
+            doc_id: len(data["tokens"]) for doc_id, data in self.processed_docs.items()
+        }
+        if self.doc_lengths:
+            self.avg_doc_length = sum(self.doc_lengths.values()) / len(self.doc_lengths)
+        else:
+            self.avg_doc_length = 0.0
+
+    def bm25_idf(self, term):
+        # smoother than normal log(n/df)
+        df = self.index.document_frequency(term)
+        n = self.index.doc_count
+        return math.log((n - df + 0.5) / (df + 0.5) + 1)
+
+    def bm25_score(self, doc_id, query_terms, k1=1.5, b=0.75):
+        """
+        sums BM25's per-term contribution over every (unique) query term:
+            idf(t) * [f(t,D) * (k1+1)] / [f(t,D) + k1 * (1 - b + b*|D|/avgdl)]
+        """
+        if self.avg_doc_length == 0:
+            return 0.0
+
+        doc_term_freqs = self.processed_docs[doc_id]["term_freq"]
+        doc_length = self.doc_lengths[doc_id]
+
+        score = 0.0
+        for term in set(query_terms):
+            freq = doc_term_freqs.get(term, 0)
+            if freq == 0:
+                continue
+
+            idf = self.bm25_idf(term)
+            numerator = freq * (k1 + 1)
+            denominator = freq + k1 * (1 - b + b * (doc_length / self.avg_doc_length))
+            score += idf * (numerator / denominator)
+
+        return score
+
+    def search_bm25(self, query, top_k=5, k1=1.5, b=0.75):
+        """
+        Same interface as search(), but ranks using BM25 instead of
+        TF-IDF/cosine similarity. Returns (results, corrections).
+        """
+        raw_query_words = {re.sub(r"[^\w]", "", w).lower() for w in query.split()}
+
+        query_terms = self.tokenizer.tokenize(query)
+        query_terms, corrections = self.apply_fuzzy_correction(query_terms)
+
+        results = []
+        for doc_id in self.processed_docs:
+            score = self.bm25_score(doc_id, query_terms, k1=k1, b=b)
             if score > 0:
                 filename = self.processed_docs[doc_id]["filename"]
                 snippet = self.get_snippet(doc_id, raw_query_words)
@@ -213,7 +325,8 @@ class SearchEngine:
 
 if __name__ == "__main__":
     engine = SearchEngine()
-    engine.load_and_index("sample_corpus")
+    engine.load_and_index("sample_corpus", cache_path="sample_corpus/.index_cache.json")
+    print("Loaded from cache:", engine.loaded_from_cache)
 
     query = "machine learning python"
     results, corrections = engine.search(query)

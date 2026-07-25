@@ -1,0 +1,41 @@
+TITLE: Depression and Anxiety Disorders - Clinical Overview
+
+OVERVIEW
+Depression and anxiety disorders are among the most prevalent mental health
+conditions worldwide, often co-occurring and significantly impacting quality
+of life and functioning.
+
+MAJOR DEPRESSIVE DISORDER
+Major depressive disorder (MDD) is characterized by persistent low mood,
+anhedonia, changes in sleep and appetite, fatigue, feelings of worthlessness
+or guilt, difficulty concentrating, and in severe cases, suicidal ideation,
+lasting at least two weeks and causing functional impairment.
+
+ANXIETY DISORDERS
+Generalized anxiety disorder involves excessive, uncontrollable worry about
+multiple domains lasting six months or more, accompanied by restlessness,
+fatigue, muscle tension, and sleep disturbance. Panic disorder involves
+recurrent unexpected panic attacks with intense fear and physical symptoms
+such as palpitations and shortness of breath.
+
+SCREENING TOOLS
+Common validated screening instruments include the PHQ-9 for depression and
+the GAD-7 for generalized anxiety, both used in primary care settings to
+assess symptom severity.
+
+TREATMENT APPROACHES
+Evidence-based treatment includes psychotherapy, particularly cognitive
+behavioral therapy (CBT), and pharmacotherapy with selective serotonin
+reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors
+(SNRIs) as first-line agents. Combination therapy is often more effective
+than either modality alone for moderate to severe presentations.
+
+RISK ASSESSMENT
+Clinicians routinely assess for suicidal ideation, intent, and access to
+means, as depression significantly increases suicide risk. Safety planning
+and appropriate level-of-care determination are essential components of
+management.
+
+CHRONIC MANAGEMENT
+Ongoing follow-up, medication adherence support, and relapse prevention
+strategies are important given the recurrent nature of these conditions.

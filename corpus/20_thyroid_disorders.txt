@@ -1,0 +1,47 @@
+TITLE: Thyroid Disorders - Hypothyroidism and Hyperthyroidism
+
+OVERVIEW
+The thyroid gland regulates metabolism through production of thyroid
+hormones, and dysfunction can manifest as either underactivity
+(hypothyroidism) or overactivity (hyperthyroidism).
+
+HYPOTHYROIDISM
+Hypothyroidism most commonly results from autoimmune thyroiditis (Hashimoto
+thyroiditis) in iodine-sufficient regions, characterized by lymphocytic
+infiltration and gradual destruction of thyroid tissue. Symptoms include
+fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss,
+and bradycardia.
+
+HYPOTHYROIDISM DIAGNOSIS AND TREATMENT
+Diagnosis is confirmed by elevated thyroid-stimulating hormone (TSH) with
+low free thyroxine (T4). Treatment consists of levothyroxine replacement
+therapy, titrated based on TSH levels, typically rechecked every 6-8 weeks
+after dose adjustments.
+
+HYPERTHYROIDISM
+Hyperthyroidism is most commonly caused by Graves disease, an autoimmune
+condition involving thyroid-stimulating immunoglobulins that activate the
+TSH receptor. Other causes include toxic multinodular goiter and toxic
+adenoma. Symptoms include weight loss, heat intolerance, palpitations,
+tremor, anxiety, and in Graves disease, ophthalmopathy.
+
+HYPERTHYROIDISM DIAGNOSIS AND TREATMENT
+Diagnosis is confirmed by suppressed TSH with elevated free T4 and/or T3.
+Treatment options include antithyroid medications such as methimazole,
+radioactive iodine ablation, and thyroidectomy, chosen based on patient
+preference, goiter size, and presence of ophthalmopathy.
+
+THYROID NODULES
+Thyroid nodules are common and typically evaluated with ultrasound and, when
+indicated, fine-needle aspiration biopsy to assess malignancy risk based on
+sonographic features and nodule size.
+
+THYROID FUNCTION TESTING
+TSH is generally the most sensitive initial screening test for thyroid
+dysfunction, with free T4 and T3 used to further characterize the type and
+severity of dysfunction.
+
+PREGNANCY CONSIDERATIONS
+Thyroid hormone requirements increase during pregnancy, and untreated
+thyroid dysfunction can affect maternal and fetal outcomes, requiring close
+monitoring and dose adjustments.

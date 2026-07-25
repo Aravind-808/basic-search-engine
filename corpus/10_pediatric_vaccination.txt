@@ -1,0 +1,41 @@
+TITLE: Pediatric Vaccination Schedule - Overview
+
+OVERVIEW
+Routine childhood immunization protects against numerous infectious
+diseases and is a cornerstone of preventive pediatric care.
+
+BIRTH TO 15 MONTHS
+Recommended vaccines during this period typically include hepatitis B,
+rotavirus, diphtheria-tetanus-acellular pertussis (DTaP), Haemophilus
+influenzae type b (Hib), pneumococcal conjugate vaccine (PCV), inactivated
+poliovirus vaccine (IPV), influenza (annual, starting at 6 months), measles-
+mumps-rubella (MMR), varicella, and hepatitis A.
+
+18 MONTHS TO 6 YEARS
+Booster doses of DTaP, IPV, MMR, and varicella are administered, along with
+continued annual influenza vaccination.
+
+ADOLESCENT SCHEDULE
+Recommended adolescent vaccines include tetanus-diphtheria-pertussis (Tdap)
+booster, human papillomavirus (HPV) vaccine series, and meningococcal
+conjugate vaccine, with a booster dose typically given around age 16.
+
+CATCH-UP IMMUNIZATION
+Catch-up schedules are available for children and adolescents who have
+fallen behind on recommended vaccines, allowing appropriate spacing based on
+minimum intervals between doses.
+
+CONTRAINDICATIONS AND PRECAUTIONS
+Severe allergic reaction to a previous dose or vaccine component is a
+contraindication. Moderate to severe acute illness generally warrants
+postponement, while mild illness is not a contraindication.
+
+ADVERSE EVENTS
+Most vaccine reactions are mild, including injection site soreness, low-
+grade fever, and fussiness. Serious adverse events are rare and are
+monitored through post-marketing surveillance systems.
+
+IMPORTANCE OF HERD IMMUNITY
+High vaccination coverage protects vulnerable populations who cannot be
+vaccinated, including infants too young for certain vaccines and
+immunocompromised individuals.

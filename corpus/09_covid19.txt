@@ -1,0 +1,44 @@
+TITLE: COVID-19 - Clinical Features and Management
+
+OVERVIEW
+COVID-19 is caused by SARS-CoV-2, a novel coronavirus first identified in
+late 2019 that produces a spectrum of illness ranging from asymptomatic
+infection to severe respiratory failure.
+
+TRANSMISSION
+The virus spreads primarily via respiratory droplets and aerosols, with
+close contact and poorly ventilated indoor spaces increasing transmission
+risk.
+
+CLINICAL PRESENTATION
+Common symptoms include fever, cough, fatigue, myalgia, sore throat, loss of
+taste or smell, and dyspnea. Severe cases can progress to acute respiratory
+distress syndrome (ARDS), multi-organ dysfunction, and thromboembolic
+complications.
+
+RISK FACTORS FOR SEVERE DISEASE
+Older age, obesity, diabetes, cardiovascular disease, chronic lung disease,
+and immunosuppression are associated with increased risk of severe illness
+and hospitalization.
+
+DIAGNOSIS
+Diagnosis relies on RT-PCR or antigen testing of nasopharyngeal or nasal
+swab specimens. Chest imaging may show bilateral ground-glass opacities in
+moderate to severe cases.
+
+MANAGEMENT
+Mild cases are managed with supportive care including rest, hydration, and
+antipyretics. Hospitalized patients with hypoxemia may benefit from
+supplemental oxygen, corticosteroids such as dexamethasone, and antiviral
+agents. Monoclonal antibodies and antivirals may be used in high-risk
+outpatients when appropriate.
+
+PREVENTION
+Vaccination significantly reduces risk of severe disease and hospitalization.
+Additional preventive measures include hand hygiene, ventilation
+improvements, and masking in high-risk settings.
+
+LONG-TERM SEQUELAE
+A subset of patients experience persistent symptoms including fatigue,
+cognitive difficulties, and dyspnea beyond the acute illness, sometimes
+referred to as post-COVID condition.
