@@ -44,6 +44,7 @@ def main():
     print(f"Indexed {doc_count} documents, {term_count} unique terms.\n")
 
     print("Type a search query (or 'quit' to exit).")
+    print('Use "quotes" for exact phrase search, e.g. "machine learning".')
     print("Use AND / OR / NOT for boolean search, e.g. 'python AND learning'.")
     while True:
         query = input("> ").strip()
@@ -54,7 +55,10 @@ def main():
             print("Goodbye.")
             break
 
-        if engine.is_boolean_query(query):
+        if engine.is_phrase_query(query):
+            results = engine.phrase_search(query)
+            print_boolean_results(results)
+        elif engine.is_boolean_query(query):
             results = engine.boolean_search(query)
             print_boolean_results(results)
         else:
