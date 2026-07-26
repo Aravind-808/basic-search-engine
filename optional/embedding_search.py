@@ -54,7 +54,7 @@ class EmbeddingSearch:
 
 
 if __name__ == "__main__":
-    from file_loader import DocumentCollector
+    from ingestion.file_loader import DocumentCollector
 
     collector = DocumentCollector()
     collector.load_files("topic_corpus")

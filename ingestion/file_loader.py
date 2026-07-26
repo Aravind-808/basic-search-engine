@@ -25,7 +25,7 @@ this loader will then be passed on to the tokenizer :)
 '''
 import os
 import logging
-from archive.errors import DuplicateContentError
+from ingestion.errors import DuplicateContentError
 
 class DocumentCollector:
     def __init__(self):

@@ -1,6 +1,6 @@
 import os
 import sys
-from search_engine import SearchEngine
+from core.search_engine import SearchEngine
 
 
 def print_ranked_results(results, corrections):

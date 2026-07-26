@@ -6,7 +6,7 @@ id, filename, content, path) and produces tokenized documents ready
 for term-frequency / TF-IDF computation.
 '''
 
-from stemming import PorterStemmer
+from nlp.stemming import PorterStemmer
 
 STOPWORDS = {
     "the", "is", "a", "an", "and", "or", "in", "on", "of", "to",
@@ -75,7 +75,7 @@ class Tokenizer:
 
 
 if __name__ == "__main__":
-    from file_loader import DocumentCollector
+    from ingestion.file_loader import DocumentCollector
 
     collector = DocumentCollector()
     collector.load_files(r"C:\Users\admin\agent_folder")

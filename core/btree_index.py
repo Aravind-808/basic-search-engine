@@ -6,7 +6,7 @@ same as the dict version of inverted index, just used in a btree instead to scal
 
 import math
  
-from btree import BTree
+from core.btree import BTree
  
  
 class BTreeInvertedIndex:
@@ -103,8 +103,8 @@ class BTreeInvertedIndex:
  
  
 if __name__ == "__main__":
-    from file_loader import DocumentCollector
-    from tokenizer import Tokenizer
+    from ingestion.file_loader import DocumentCollector
+    from nlp.tokenizer import Tokenizer
  
     collector = DocumentCollector()
     collector.load_files("corpus")

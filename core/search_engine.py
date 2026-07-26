@@ -23,12 +23,12 @@ matching entirely.
 import math
 import re
 
-from file_loader import DocumentCollector
-from tokenizer import Tokenizer
-from btree_index import BTreeInvertedIndex
-from boolean_search import boolean_search, ops
-from fuzzy_search import find_closest_terms
-from persistence import IndexCache
+from ingestion.file_loader import DocumentCollector
+from nlp.tokenizer import Tokenizer
+from core.btree_index import BTreeInvertedIndex
+from nlp.boolean_search import boolean_search, ops
+from nlp.fuzzy_search import find_closest_terms
+from core.persistence import IndexCache
 
 
 class SearchEngine:
@@ -268,7 +268,7 @@ class SearchEngine:
         # optional, only needed if you want semantic_search() to work.
         # requires pip install sentence-transformers - imported lazily here
         # so nobody's forced to have that dependency just to use bm25/tfidf
-        from archive.embedding_search import EmbeddingSearch
+        from optional.embedding_search import EmbeddingSearch
         self.embedding_engine = EmbeddingSearch(model_name=model_name)
         self.embedding_engine.build(self.raw_content)
 
