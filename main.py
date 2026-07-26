@@ -13,8 +13,8 @@ def print_ranked_results(results, corrections):
         return
 
     for doc_id, filename, score, snippet in results:
-        print(f"[{score:.4f}] doc {doc_id} - {filename}")
-        print(f"\t\t...{snippet}...\n\n")
+        print(f"  [{score:.4f}] doc {doc_id} - {filename}")
+        print(f"...{snippet}...")
     print()
 
 
@@ -25,16 +25,28 @@ def print_boolean_results(results):
 
     for doc_id, filename, snippet in results:
         print(f"doc {doc_id} - {filename}")
-        print(f"\t\t...{snippet}...\n\n")
+        print(f"...{snippet}...")
+    print()
+
+
+def print_semantic_results(results):
+    if not results:
+        print("No matches found.\n")
+        return
+
+    for doc_id, filename, score, snippet in results:
+        print(f"  [{score:.4f}] doc {doc_id} - {filename}")
+        print(f"...{snippet}...")
     print()
 
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python main.py <folder_path>")
+        print("Usage: python main.py <folder_path> [--semantic]")
         sys.exit(1)
 
     folder_path = sys.argv[1]
+    semantic_enabled = "--semantic" in sys.argv
 
     print(f"Indexing documents in '{folder_path}'...")
     engine = SearchEngine()
@@ -48,9 +60,20 @@ def main():
     term_count = len(engine.index.vocabulary())
     print(f"Indexed {doc_count} documents, {term_count} unique terms.\n")
 
+    if semantic_enabled:
+        print("Loading embedding model for semantic search (first run downloads it, may take a moment)...")
+        try:
+            engine.build_embeddings()
+            print("Semantic search ready.\n")
+        except Exception as e:
+            print(f"Couldn't load embeddings ({e}). Semantic search will be unavailable.\n")
+            semantic_enabled = False
+
     print("Type a search query (or 'quit' to exit).")
     print('Use "quotes" for exact phrase search, e.g. "machine learning".')
     print("Use AND / OR / NOT for boolean search, e.g. 'python AND learning'.")
+    if semantic_enabled:
+        print("Prefix a query with ~ for semantic (meaning-based) search, e.g. '~how do computers learn'.")
     while True:
         query = input("> ").strip()
 
@@ -60,7 +83,13 @@ def main():
             print("Goodbye.")
             break
 
-        if engine.is_phrase_query(query):
+        if query.startswith("~"):
+            if not semantic_enabled:
+                print("Semantic search isn't enabled. Restart with: python main.py <folder> --semantic\n")
+                continue
+            results = engine.semantic_search(query[1:].strip())
+            print_semantic_results(results)
+        elif engine.is_phrase_query(query):
             results = engine.phrase_search(query)
             print_boolean_results(results)
         elif engine.is_boolean_query(query):
