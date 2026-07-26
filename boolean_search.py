@@ -54,7 +54,7 @@ def boolean_search(query, tokenizer, index, all_doc_ids):
 if __name__ == "__main__":
     from file_loader import DocumentCollector
     from tokenizer import Tokenizer
-    from inverted_index import InvertedIndex
+    from archive.inverted_index import InvertedIndex
  
     collector = DocumentCollector()
     collector.load_files("test_docs")

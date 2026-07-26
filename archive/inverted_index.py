@@ -103,7 +103,7 @@ if __name__ == "__main__":
     from tokenizer import Tokenizer
 
     collector = DocumentCollector()
-    collector.load_files("test_docs")
+    collector.load_files("corpus")
 
     tokenizer = Tokenizer()
     processed = tokenizer.process_documents(collector.file_data)
@@ -112,5 +112,5 @@ if __name__ == "__main__":
     index.build(processed)
 
     print("Vocabulary size:", len(index.vocabulary()))
-    for term in ["machin", "learn", "python"]:
+    for term in ["diabetes", "fatigue", "treatment"]:
         print(f"{term:10} postings={index.get_postings(term)}  df={index.document_frequency(term)}  idf={index.idf(term):.4f}")

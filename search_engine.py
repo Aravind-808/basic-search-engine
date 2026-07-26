@@ -1,11 +1,16 @@
 '''
 search_engine.py
 
-goes DocumentCollector -> Tokenizer -> InvertedIndex, then does the actual
-searching on top of that. two ranking modes exist here: plain TF-IDF +
-cosine similarity (search()), and BM25 (search_bm25()). main.py actually
-uses BM25 by default, since TF-IDF has two blind spots BM25 fixes - it
-doesn't account for document length, and it rewards repeated terms with
+goes DocumentCollector -> Tokenizer -> BTreeInvertedIndex, then does the
+actual searching on top of that. the index itself is backed by a btree
+now instead of a plain dict - same term -> postings/positions lookups,
+just walking a tree instead of hashing into a dict, which is the whole
+point if this ever needed to live on disk instead of fully in RAM.
+
+two ranking modes exist here: plain TF-IDF + cosine similarity
+(search()), and BM25 (search_bm25()). main.py actually uses BM25 by
+default, since TF-IDF has two blind spots BM25 fixes - it doesn't
+account for document length, and it rewards repeated terms with
 basically no limit. BM25 saturates term frequency and normalizes for
 doc length instead.
 
@@ -13,9 +18,6 @@ on top of ranking, this also handles boolean search (AND/OR/NOT), exact
 phrase search, fuzzy correction for typos, and optional semantic search
 using sentence-transformers embeddings if you want to go beyond keyword
 matching entirely.
-
-note that using the semantic search option
-entirely ignores everything else that is built here
 '''
 
 import math
@@ -23,7 +25,7 @@ import re
 
 from file_loader import DocumentCollector
 from tokenizer import Tokenizer
-from inverted_index import InvertedIndex
+from btree_index import BTreeInvertedIndex
 from boolean_search import boolean_search, ops
 from fuzzy_search import find_closest_terms
 from persistence import IndexCache
@@ -32,12 +34,12 @@ from persistence import IndexCache
 class SearchEngine:
     def __init__(self, fuzzy_max_distance=2):
         self.tokenizer = Tokenizer()
-        self.index = InvertedIndex()
-        self.processed_docs = {} # doc_id -> {filename, tokens, term_freq}
-        self.raw_content = {} # doc_id -> original untokenized text
-        self.doc_vectors = {} # doc_id -> {term: tfidf_weight}
-        self.doc_norms = {} # doc_id -> vector magnitude, precomputed so cosine similarity is cheap later
-        self.doc_lengths = {} # doc_id -> number of tokens, needed for BM25's length normalization
+        self.index = BTreeInvertedIndex()
+        self.processed_docs = {}   # doc_id -> {filename, tokens, term_freq}
+        self.raw_content = {}      # doc_id -> original untokenized text
+        self.doc_vectors = {}      # doc_id -> {term: tfidf_weight}
+        self.doc_norms = {}        # doc_id -> vector magnitude, precomputed so cosine similarity is cheap later
+        self.doc_lengths = {}      # doc_id -> number of tokens, needed for BM25's length normalization
         self.avg_doc_length = 0.0  # avg doc length across the corpus, also needed for BM25
         self.fuzzy_max_distance = fuzzy_max_distance
         self.loaded_from_cache = False  # load_and_index flips this so the caller knows what happened
@@ -73,9 +75,7 @@ class SearchEngine:
 
     def apply_cached_state(self, state):
         # just dumps a previously cached state back into the engine's attributes
-        self.index.doc_count = state["doc_count"]
-        self.index.index = state["index"]
-        self.index.positions = state["positions"]
+        self.index.load_from_export(state["index"], state["positions"], state["doc_count"])
         self.processed_docs = state["processed_docs"]
         self.raw_content = state["raw_content"]
         self.doc_vectors = state["doc_vectors"]
@@ -87,8 +87,8 @@ class SearchEngine:
         # the flip side of apply_cached_state, everything IndexCache needs to persist
         return {
             "doc_count": self.index.doc_count,
-            "index": self.index.index,
-            "positions": self.index.positions,
+            "index": self.index.export_postings(),
+            "positions": self.index.export_positions(),
             "processed_docs": self.processed_docs,
             "raw_content": self.raw_content,
             "doc_vectors": self.doc_vectors,
@@ -155,7 +155,7 @@ class SearchEngine:
                 corrected_terms.append(candidates[0])
                 corrections.append((term, candidates[0]))
             else:
-                corrected_terms.append(term) # keep as-is, will just score 0
+                corrected_terms.append(term)  # keep as-is, will just score 0
 
         return corrected_terms, corrections
 
@@ -262,11 +262,13 @@ class SearchEngine:
         results.sort(key=lambda r: r[2], reverse=True)
         return results[:top_k], corrections
 
+    # NOT a part of this thing, its completely optional and i just wanted to 
+    # see how semantic search would work. ignore the 2 functions below this comment
     def build_embeddings(self, model_name="all-MiniLM-L6-v2"):
         # optional, only needed if you want semantic_search() to work.
         # requires pip install sentence-transformers - imported lazily here
         # so nobody's forced to have that dependency just to use bm25/tfidf
-        from embedding_search import EmbeddingSearch
+        from archive.embedding_search import EmbeddingSearch
         self.embedding_engine = EmbeddingSearch(model_name=model_name)
         self.embedding_engine.build(self.raw_content)
 
@@ -339,13 +341,13 @@ class SearchEngine:
 
 if __name__ == "__main__":
     engine = SearchEngine()
-    engine.load_and_index("sample_corpus", cache_path="sample_corpus/.index_cache.json")
+    engine.load_and_index("corpus", cache_path="corpus/.index_cache.json")
     print("Loaded from cache:", engine.loaded_from_cache)
 
-    query = "machine learning python"
+    query = "diabetes mellitus"
     results, corrections = engine.search(query)
 
-    print(f"Query: {query}\n")
+    print(f"Query: {query}\n\n")
     for doc_id, filename, score, snippet in results:
         print(f"[{score:.4f}] doc {doc_id} - {filename}")
         print(f"...{snippet}...")
